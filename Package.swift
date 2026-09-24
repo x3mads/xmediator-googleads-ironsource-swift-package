@@ -1,7 +1,7 @@
 // swift-tools-version:5.6
 //
 // MODIFIED BY X3M (spm-compat-publisher): republished from
-// https://github.com/googleads/googleads-mobile-ios-mediation-ironsource.git tag 9.5.00000.
+// https://github.com/googleads/googleads-mobile-ios-mediation-ironsource.git tag 9.6.00000.
 // Change: the dependency on https://github.com/ironsource-mobile/Unity-Mediation-iAds-Swift-Package.git
 // (package identity Unity-Mediation-iAds-Swift-Package) was replaced with
 // https://github.com/ironsource-mobile/LevelPlay-Swift-Package.git (package identity LevelPlay-Swift-Package).
@@ -36,7 +36,7 @@ let package = Package(
   dependencies: [
     .package(
       url: "https://github.com/ironsource-mobile/LevelPlay-Swift-Package.git",
-      exact: "9.5.0"
+      exact: "9.6.0"
     ),
     .package(
       url: "https://github.com/googleads/swift-package-manager-google-mobile-ads.git",
@@ -56,8 +56,8 @@ let package = Package(
     .binaryTarget(
       name: "IronSourceAdapter",
       url:
-        "https://dl.google.com/googleadmobadssdk/mediation/ios/ironsource/IronSourceAdapter-9.5.0.0.0.zip",
-      checksum: "22ffdd0c437a43dd5ab8738d3cfe459ab303846740fc581cbe2f96bf7c6907c3"
+        "https://dl.google.com/googleadmobadssdk/mediation/ios/ironsource/IronSourceAdapter-9.6.0.0.0.zip",
+      checksum: "bc4c217a73974fd9b0aae7c07f27222c15b9471eccfa6f723d7b5e78074d8bc7"
     ),
   ]
 )
